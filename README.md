@@ -8,6 +8,23 @@
 
 ![字体预览示例](font_previews/GenYoGothicTW-Regular_996958.png)
 
+## 字体目录
+
+点击“预览”可进入包含全部字体卡片的预览页。
+
+| 字体来源 / 系列 | 包含字体 | 预览 |
+| --- | --- | --- |
+| 源樣體（ButTaiwan） | GenRyuMinTW、GenSekiGothicTW、GenSenMaruGothicTW、GenWanMinTW、GenYoGothicTW、GenYoMinTW（共 39 款字重） | [预览](font_previews/index.html) |
+| 臺灣教育部字體 | ebas927、TW-Kai、TW-Sung 系列（共 7 款） | [预览](font_previews/index.html) |
+| 方正 | mssong、博雅宋、博雅方刊宋、報宋、宋刻本秀楷、屏顯雅宋、新書宋、新秀麗、標雅宋 | [预览](font_previews/index.html) |
+| 一點明朝體 | I.Ming、I.MingCP、I.MingVar、I.MingVarCP | [预览](font_previews/index.html) |
+| H-體 | H-宫書、H-明蘭、H-秀月、TH-SiuNiu Bold / Regular | [预览](font_previews/index.html) |
+| 花園明體 | HanaMinA、HanaMinB | [预览](font_previews/index.html) |
+| IPA | ipaexg、ipaexm | [预览](font_previews/index.html) |
+| 雲林黑體 | YunlinSans Bold / Regular | [预览](font_previews/index.html) |
+| 中华书局 | FZSONG_ZhongHuaSongPlane00 / 02 / 15 | [预览](font_previews/index.html) |
+| 其他 | BabelStoneHan、KX 康熙字典体、GungSeo、KaiXinSong、索尼明体 / 楷书、菩提明體、汀明體、漢儀新蒂文徵明體等 | [预览](font_previews/index.html) |
+
 ## 本地生成
 
 ```bash
