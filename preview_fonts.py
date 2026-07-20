@@ -86,16 +86,10 @@ def find_ttf_files() -> List[Path]:
 
 
 def get_unique_filename(font_path: Path) -> str:
-    """生成唯一的输出文件名，避免同名覆盖"""
+    """生成与字体路径一一对应的稳定文件名，避免同名覆盖。"""
     stem = font_path.stem
-    
-    # 检查是否有重名文件
-    existing = list(OUTPUT_DIR.glob(f"{stem}.png"))
-    if not existing:
-        return f"{stem}.png"
-    
-    # 添加短哈希避免冲突
-    hash_str = hashlib.md5(str(font_path).encode()).hexdigest()[:6]
+    relative_path = font_path.relative_to(REPO_DIR)
+    hash_str = hashlib.md5(str(relative_path).encode()).hexdigest()[:6]
     return f"{stem}_{hash_str}.png"
 
 

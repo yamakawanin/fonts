@@ -4,6 +4,3 @@
 
 # Runtime clone of the upstream font collection
 chinese-fonts/
-
-# Generated previews (rebuild with preview_fonts.py)
-font_previews/
